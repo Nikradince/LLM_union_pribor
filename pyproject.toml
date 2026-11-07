@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "grounded-product-writer"
+version = "0.1.0"
+description = "B2B product card drafts from verified source data"
+requires-python = ">=3.11"
+dependencies = []
+
+[project.scripts]
+product-writer = "product_writer.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["product_writer*"]
+
+[tool.ruff]
+line-length = 100

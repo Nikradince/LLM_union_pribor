@@ -1,0 +1,27 @@
+# Local settings and secrets
+.env
+.env.*
+!.env.example
+
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Local results and build files
+tmp/
+output/
+*.egg-info/
+build/
+dist/
+*.log
+
+# Operating system files
+.DS_Store
+Thumbs.db
